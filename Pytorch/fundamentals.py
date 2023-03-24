@@ -1,3 +1,9 @@
-# 00. PyTorch Fundamentals
+import torch
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
-print("Hello I am learning PyTorch")
+print(torch.__version__)
+
+x = torch.rand(5, 3)
+print(x)
