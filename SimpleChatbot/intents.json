@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["Hi", "How are you", "Good day", "Whats up", "how is it going?"],
+            "responses": ["Hello!", "Hey!", "What can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "See you later", "Goodbye", "Have a good day", "later alligator"],
+            "responses": ["Talk to you later!", "10-4", "Have a good day!"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old", "how old is keller", "what is your age", "how old are you", "age"],
+            "responses": ["My owner Keller is like 90 years old!", "90!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name", "what should I call you", "whats your name", "who are you", "name"],
+            "responses": ["You can call me Keller!", "I'm Keller!", "I'm Keller, nice to meet you!"]
+        },
+        {
+            "tag": "shop",
+            "patterns": ["What do you sell", "What are you selling", "What is this place", "what is this", "what do you have"],
+            "responses": ["We sell coffee and tea"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What are your hours", "When are you open", "What time are you open", "hours"],
+            "responses": ["We sell all sorts of donuts ... some jelly filled, some glazed, some with sprinkles, and some with chocolate frosting."]
+        },
+        {
+            "tag": "stocks",
+            "patterns": ["What stocks do I own", "What stocks do I have", "What stocks do I have", "What stocks do I own", "stocks"],
+            "responses": ["You own 100 shares of Apple, 200 shares of Tesla, and 300 shares of Amazon."]
+        }
+    ]
+}
